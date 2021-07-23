@@ -1,0 +1,111 @@
+body{
+background-color: aquamarine;
+}
+.cajasu{
+display: inline-flex; 
+background-color: aquamarine; 
+}
+.caja{
+background-color: cadetblue;
+width: 280px;
+padding: 20px;
+margin-top: -1%;
+margin-left: -1%;
+box-sizing: border-box;
+text-align: center;
+display: inline-flex;
+}
+
+#jl{
+width: 230px;
+padding: 20px;   
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+.description{
+padding: 20px;
+box-sizing: border-box;
+font-size: 10px;
+font-family: Arial;
+}
+
+#important{
+display: inline-flex;
+flex-direction: column-reverse;
+position: relative;
+margin-left: 10%;
+margin-top: -20%;
+}
+
+.formulario{
+background-color: #c3d875;
+padding: 20px;
+opacity: 85%;
+border-radius: 10px;
+position: absolute;
+margin-left: 120%;
+}
+        
+.bottom{
+padding-top: -65px;
+cursor:pointer;
+}
+
+h5{
+font-size: 25px;
+font-family:  'Arial Narrow', Arial, sans-serif;
+margin-top: 100px;
+}
+
+/*h1{
+font-family: Arial;
+}
+
+h2{
+font-size: 13px;
+font-family: Arial;
+}
+
+h3{
+    font-size: 13px;
+    font-family: Arial;
+}
+
+#jl{
+    margin-top: 6px;
+    width: 250px;
+    
+    border-radius: 10px;
+    align-items: center;
+}
+
+p {
+ font-size: 18px;  
+}
+
+h5{
+font-size: 25px;
+font-family:  'Arial Narrow', Arial, sans-serif;
+margin-top: 100px;
+}
+
+
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+
+}
+
+.formulario{
+background-color: #c3d875;
+position: absolute;
+border-radius: 10px;
+opacity: 85%;
+}
+
+.bottom{
+padding-top: -65px;
+cursor:pointer;
+}
