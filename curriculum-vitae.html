@@ -4,46 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
     <title>CV Juan Leiva</title>
 </head>
 <body>
-    <h1>Juan Alberto Leiva</h1>
-    <img src="imagen\Juan.jpg" width="200px" alt="Juan Leiva"></img>
+<div class="cajasu">
+    <div class="caja">
+        <div class="rigth">
+                
+                <h1>Juan Alberto Leiva</h1>
+                <img id="jl" src="imagen\Juan.jpg"  alt="Juan Leiva"></img>
+                
+            <div class="description">
+                <h2>Edad: 23 años.</h2>
+                <h3>Lugar de residencia: Villa Mercedes - San Luis.</h3>
+            </div>
+        </div>
+        </div>
+        <div id="important">
+            <div class="like">   
+                <h4>Series que me gustan:</h4>
+                    <ul>
+                        <li>Ragnarok.</li>
+                        <li>Peaky Blinders.</li>
+                        <li>Stranger Things.</li>
+                    </ul>            
+                <h4>Peliculas que me gustan:</h4>
+                    <ol>
+                        <li>Avatar.</li>
+                        <li>Avenger´s.</li>
+                        <li>Rambo.</li>
+                    </ol>
+
+            </div>
+                <div class="profile">
+                    <h5>Perfil</h5>
+                    <p>Me gusta dedicarme a la programación, y todo lo que conlleva esta profesión.-</p>
+                    <P>Tambien me gusta Mirar series y peliculas, mas aun cuando son basadas en hechos reales.-</P>
+                    <p>No me gusta cuando hay una injusticia, ya sea en la vida, asi como en el ambito laborar.-</p>
+                </div>
+
+                <div class="formulario">
+                    <p style="font-weight: bold">Si desea contactarme, puede rellenar el siguiente formulario:</p>
+                    <form  action="curriculum-vitae.html" method="get">
+                    <p>
+                        <label for="nom">Nombres y Apellido</label>
+                        <input type="text" name="nombre" >
+                    </p>
+                    <p>
+                        <label for="email">Direccion de E-mail</label>
+                        <input type="text" name="email" placeholder="example@gmail.com">
+                    </p>
+                    <p>
+                        <label for="num">Numero de contacto</label>
+                        <input type="number" name="num" placeholder="SIN 0 y 15">
+                    </p>
+                        <br/>
+                        <input type="submit" value="Enviar formulario" class="bottom">
+                    </form>
+    </div>
+    </div> 
     <br>
-    <h2>Edad: 23 años</h2>
-    <h3>Domicilio: Ayacucho 364</h3>
-    <h4>Series que me gustan:</h4>
-    <ul>
-        <li>Ragnarok</li>
-        <li>Peaky Blinders</li>
-        <li>Stranger Things</li>
-    </ul>
-<h5>Peliculas que me gustan:</h5>
-    <ol>
-        <li>Avatar</li>
-        <li>Avenger´s</li>
-        <li>Rambo</li>
-    </ol>
-    <h6>Perfil</h6>
-    <p>Me gusta dedicarme a la programación, y todo lo que conlleva esta profesión.-</p>
-    <P>Tambien me gusta Mirar series y peliculas, mas aun cuando son basadas en hechos reales.-</P>
-    <p>No me gusta es cuando hay una injusticia, ya sea en la vida, asi como en el ambito laborar.-</p>
     <br>
-    <br>
-    <p style="font-weight: bold">Si desea contactarme, puede rellenar el siguiente formulario:</p>
-    <form action="" method="">
-        <p>
-            <label for="nom">Nombres y Apellido</label>
-            <input type="text" name="nombre" placeholder="">
-        </p>
-        <p>
-            <label for="email">Direccion de E-mail</label>
-            <input type="text" name="email" placeholder="example@gmail.com">
-        </p>
-        <p>
-            <label for="num">Numero de contacto</label>
-            <input type="number" name="num" placeholder="SIN 0 y 15">
-        </p>
-    </form>
+    
 </body>
 </html>
